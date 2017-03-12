@@ -1,7 +1,12 @@
 *{
  border: 1px solid black;
+ text-align: center;
 }
 
 header{
   /*background-color: #87CEEB;*/
+}
+
+table{
+  text-align: center;
 }
