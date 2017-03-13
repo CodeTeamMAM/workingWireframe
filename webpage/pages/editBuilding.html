@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Emerson Fire Systems</title>
+  <meta name="description" content="Emerson Fire Systems">
+  <meta name="author" content="CodeTeamMAM">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <a class="btn btn-primary btn-lg" href="../index.html" role="button">Log out &raquo;</a>
+          <a class="btn btn-primary btn-lg" href="adminpage.html" role="button">Admin Home &raquo;</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Emerson Fire - Adminstrator Portal</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>Horowhenua Masonic Village</h1>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+        <form>
+          Building name:<br>
+          <input type="text" name="firstname" placeholder="Horowhenua Masonic Village"><br>
+          Address:<br>
+          <input type="text" name="lastname" placeholder="685 Queen Street East, Levin 5510"><br>
+          PFA number:<br>
+          <input type="text" name="PFA" placeholder="435783"><br>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <form>
+          Client:<br>
+          <input type="text" name="search" placeholder="Sue Maney"><br>
+          Email:<br>
+          <input type="text" name="client" placeholder="sue.maney@email.com"><br>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h4>Change reporting date</h4>
+        <input type="text" name="search" placeholder="4/6/17"><br>
+        <p><a class="btn btn-default" href="newBuilding.html" role="button">Submit &raquo;</a></p>
+     </div>
+   </div>
+   <hr>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Sprinkler System    <button type="button" class="btn btn-default">Select All</button></h4>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Access Security</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Installation Pressure Arrive(kPa)</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Installation Pressure Depart(kPa)</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Primary Static Pressure</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Secondary Static Pressure</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Operate Isolate - test mode</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox">Operate A.I.G - Fire Signal</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox">Defect Pressure</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox">Fire Pressure Rise</label>
+        <input type="text" name="search" placeholder="New sprinkler feature"><br>
+        <button type="button" class="btn btn-default">Save</button>
+      </div>
+      <div class="col-md-4">
+        <h4>Alarm System    <button type="button" class="btn btn-default">Select All</button></h4>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Clean Battery Terminals</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Sealed Battery - Volts Charger</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Sealed Battery - 5A Load</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Open Battery - Volts Charger</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Electrolyte Level OK</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Outside Alerting Device</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Indicator Lamps Correct</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">All Shutters Drop Correctly</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Operate Circuit</label>
+        <input type="text" name="search" placeholder="New alarm feature"><br>
+        <button type="button" class="btn btn-default">Save</button>
+      </div>
+      <div class="col-md-4">
+        <h4>Other    <button type="button" class="btn btn-default">Select All</button></h4>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Signs</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Riser Mains</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Final Exists</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Safety Barriers</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Access for the disabled</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Hose Reels and Extinguishers</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Emergency Lighting System</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox" checked="checked">Emergency Warning System</label>
+        <label class="checkbox"><input type="checkbox" name="checkbox">Weekly Diesel Pump Test</label>
+        <input type="text" name="search" placeholder="Add new feature"><br>
+        <button type="button" class="btn btn-default">Save</button>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="row">
+      <button type="button" class="btn btn-primary btn-block">Update exisiting building entry</button>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
